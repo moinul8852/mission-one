@@ -1,3 +1,66 @@
 .websitcolor{
-    color: rgb(233, 147, 85);
+    color:#FD6E0A;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+
+   justify-content: space-around;
+   margin:0  200px;
+
+}
+nav
+.websitcolor{
+    color: var(--Dark-01, #181818);
+ 
+font-family: Open Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;}
+.text-primary{
+    color: #FD6E0A;
+    
+}
+.btn-primary{
+    border-radius: 5px;
+background: #FD6E0A;
+border: 0;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+color:white;
+padding: 15px 35px;
+
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: var(--Dark-02, #474747);;
+}
+nav{
+    justify-content: space-around;
+
+}
+.header{
+    background-color:#FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
 }
